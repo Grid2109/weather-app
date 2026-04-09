@@ -4,3 +4,48 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+html {
+    background-color: #E2EAF5
+}
+
+body {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-container img {
+    margin-right: 20px;
+}
+
+.custom-input {
+    background-image: url('icons/search-icon.svg');
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    border: none;
+    border-radius: 15px;
+    padding: 16px 16px 16px 40px;
+    background-color: #fdfffe;
+    color: #232323;
+    width: 100%;
+}
+
+.custom-input:focus {
+    outline: 2px solid #3aa2ff;
+}
+
+.custom-input::placeholder {
+    color: #b1b8c0;
+}
