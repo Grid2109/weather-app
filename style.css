@@ -1,163 +1,208 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
-    background-color: #E2EAF5
+  background-color: #e2eaf5;
 }
 
 body {
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .app-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 40px;
+  grid-column-gap: 100px;
 }
 
 .header-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-container img {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .custom-input {
-    background-image: url('icons/search-icon.svg');
-    background-repeat: no-repeat;
-    background-position: left 10px center;
-    border: none;
-    border-radius: 15px;
-    padding: 16px 16px 16px 40px;
-    background-color: #fdfffe;
-    color: #232323;
-    width: 100%;
+  background-image: url("icons/search-icon.svg");
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  border: none;
+  border-radius: 15px;
+  padding: 16px 16px 16px 40px;
+  background-color: #fdfffe;
+  color: #232323;
+  width: 100%;
 }
 
 .custom-input:focus {
-    outline: 2px solid #3aa2ff;
+  outline: 2px solid #3aa2ff;
 }
 
 .custom-input::placeholder {
-    color: #b1b8c0;
+  color: #b1b8c0;
 }
 
 .showcase-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 60px;
 }
 
-.showcase-container .showcase-text > h2:first-child{
-    font-size: 3.125rem;
-    font-weight: 700;
-    color: #2a394f;
+.showcase-container .showcase-text > h2:first-child {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #2a394f;
 }
 
-.showcase-container .showcase-text > h2:last-child{
-    font-size: 5.125rem;
-    font-weight: 700;
-    color: #2a394f;
+.showcase-container .showcase-text > h2:last-child {
+  font-size: 5.125rem;
+  font-weight: 700;
+  color: #2a394f;
 }
 
 .showcase-container .showcase-text > p {
-    color: #9aa0a8;
-    margin-bottom: 15px;
-    font-weight: 500;
+  color: #9aa0a8;
+  margin-bottom: 15px;
+  font-weight: 500;
 }
 
-
 .hourly-forecast-container {
-    border-radius: 40px;
-    padding: 40px;
-    background: linear-gradient(90.28deg, #007dfe 0.22%, #3aa2ff 99.76%);
-    box-shadow: 0px 30px 50px -19px rgba(1, 126, 254, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  border-radius: 40px;
+  padding: 40px;
+  background: linear-gradient(90.28deg, #007dfe 0.22%, #3aa2ff 99.76%);
+  box-shadow: 0px 30px 50px -19px rgba(1, 126, 254, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hourly-forecast-container .hour-weather-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hourly-forecast-container .hour-weather-item > img {
-    width: 70px;
-    height: 70px;
-    margin-bottom: 10px;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
 }
 
-.hourly-forecast-container .hour-weather-item > p:first-child{
-    color: #fff;
-    opacity: 75%;
-    font-weight: 500;
+.hourly-forecast-container .hour-weather-item > p:first-child {
+  color: #fff;
+  opacity: 75%;
+  font-weight: 500;
 }
 
-.hourly-forecast-container .hour-weather-item > p:last-child{
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 700;
+.hourly-forecast-container .hour-weather-item > p:last-child {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .weather-details-container {
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(4, 220px);
-    grid-column-gap: 15px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+  grid-column-gap: 15px;
 }
 
 .weather-details-container .weather-detail-item {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- text-align: center;
- padding: 30px;
- border-radius: 40px;
- background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 40px;
+  background-color: #fff;
 }
 
 .weather-details-container .weather-detail-item > p:first-child {
-    color:#8f8f8f;
+  color: #8f8f8f;
 }
 
 .weather-details-container .weather-detail-item > div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .weather-details-container .weather-detail-item > div > p {
- font-size: 2.5rem;
- font-weight: 700;
- color: #2a394f;
- margin-left: 4px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2a394f;
+  margin-left: 4px;
 }
 
 .weather-details-container .weather-detail-item > div > p > span {
-    font-size: 0.75rem;
-    margin-left: 5px;
-    vertical-align: middle;
+  font-size: 0.75rem;
+  margin-left: 5px;
+  vertical-align: middle;
 }
 
 .weather-details-container .weather-detail-item > div > img {
-    width: 35px;
-    height: 35px;
+  width: 35px;
+  height: 35px;
 }
 
+.weekly-forecast-container {
+  background: #f8f4f4;
+  padding: 40px;
+  border-radius: 40px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
 
+.weekly-forecast-container .day-weather-item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  /* justify-content: space-between; */
+}
 
+.weekly-forecast-container .day-weather-item > p,
+.weekly-forecast-container .day-weather-item > img,
+.weekly-forecast-container .day-weather-item > div {
+  flex: 1;
+}
 
+.weekly-forecast-container .day-weather-item > p {
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
+.weekly-forecast-container .day-weather-item > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.weekly-forecast-container .day-weather-item > div > p:first-child {
+  font-weight: 500;
+  margin-right: 8px;
+  color: #2a394f;
+}
+
+.weekly-forecast-container .day-weather-item > div > p:last-child {
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
+.weekly-forecast-container .day-weather-item > img {
+  width: 60px;
+  height: 60px;
+}
