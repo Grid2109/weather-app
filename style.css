@@ -158,6 +158,10 @@ body {
   height: 35px;
 }
 
+.right-column {
+  margin-top: 60px;
+}
+
 .weekly-forecast-container {
   background: #f8f4f4;
   padding: 40px;

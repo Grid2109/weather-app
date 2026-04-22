@@ -85,6 +85,10 @@
     font-size: 0.5rem;
   }
 
+  .right-column {
+    margin-top: 0;
+  }
+
   .weekly-forecast-container {
     font-size: 0.925rem;
   }
