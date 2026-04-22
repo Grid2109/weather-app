@@ -1,15 +1,15 @@
-# Weather App - Previsao do Tempo
+# Weather App - Previsão do Tempo
 
-Aplicacao web estatica de previsao do tempo com foco em interface moderna e responsiva.
+Aplicação web estatica de previsão do tempo com foco em interface moderna e responsiva.
 
-## Visao geral
+## Visão geral
 
 Este projeto apresenta um dashboard de clima com:
 
-- busca de cidade (campo visual no cabecalho);
+- busca de cidade (campo visual no cabeçalho);
 - destaque das condicoes atuais (cidade, chance de chuva e temperatura);
-- previsao por hora;
-- indicadores adicionais (sensacao termica, chuva, vento e indice UV);
+- previsão por hora;
+- indicadores adicionais (sensação térmica, chuva, vento e índice UV);
 - previsao semanal.
 
 ## Tecnologias utilizadas
@@ -31,20 +31,20 @@ weather-app/
 
 ## Como executar
 
-Como o projeto e estatico, nao precisa instalar dependencias:
+Como o projeto e estático, não precisa instalar dependencias:
 
 1. Abra a pasta do projeto.
 2. Execute o arquivo `index.html` no navegador (duplo clique ou "Open with Live Server").
 
 ## Responsividade
 
-O layout principal usa duas colunas em telas maiores (`style.css`) e se adapta para uma coluna em telas de ate `1024px` (`mobile.css`), com ajustes de:
+O layout principal usa duas colunas em telas maiores (`style.css`) e se adapta para uma coluna em telas de até `1024px` (`mobile.css`), com ajustes de:
 
-- espacamentos;
+- espaçamentos;
 - tamanhos de fonte;
-- dimensoes dos icones;
-- distribuicao dos cards.
+- dimensões dos ícones;
+- distribuição dos cards.
 
 ## Autor
 
-Projeto desenvolvido para pratica de HTML e CSS no contexto de interface de previsao do tempo.
+Projeto desenvolvido para prática de HTML e CSS no contexto de interface de previsão do tempo.
