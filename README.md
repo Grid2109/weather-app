@@ -48,3 +48,6 @@ O layout principal usa duas colunas em telas maiores (`style.css`) e se adapta p
 ## Autor
 
 Projeto desenvolvido para prática de HTML e CSS no contexto de interface de previsão do tempo.
+
+## Deploy
+weather-app-grid.netlify.app
